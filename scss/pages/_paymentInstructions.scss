@@ -1,0 +1,325 @@
+.paymentInstructions{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  margin-top: 30px;
+  align-self: stretch;
+  &__section{
+    display: flex;
+    padding: 0px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    align-self: stretch;
+    &__title{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      align-self: stretch;
+      color: $black-color;
+      font-family: "fw-400";
+      font-size: 18px;
+      font-style: normal;
+      line-height: normal;
+      &__header{
+        align-self: stretch;
+        color: $black-color;
+        font-family: "fw-700";
+        font-size: 28px;
+        font-style: normal;
+        line-height: normal;
+      }
+    }
+    &__wrap{
+      display: flex;
+      // width: 1840px;
+      justify-content: space-between;
+      align-items: flex-start;
+      align-content: space-between;
+      flex-wrap: wrap;
+      &__card{
+        width: 32%;
+        display: flex;
+        // width: 602px;
+        padding: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        flex-shrink: 0;
+        border-radius: 15px;
+        background: $white-color;
+        box-shadow: $shadow-box;
+        color: $black-color;
+        font-family: "fw-400";
+        font-size: 18px;
+        font-style: italic;
+        line-height: normal;
+        a{
+          color: $black-color;
+          text-decoration: none;
+        }
+        &__header{
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          align-self: stretch;
+          &__content{
+            flex: 1 0 0;
+            color: $main-color-blue;
+            font-family: "fw-700";
+            font-size: 28px;
+            font-style: normal;
+            line-height: normal;
+          }
+          &__box{
+            display: flex;
+            width: 54px;
+            height: 48px;
+            padding: 3px 0px 3.071px 0px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            background: $white-color;
+            &__img{
+              width: 54px;
+              height: 41.929px;
+              flex-shrink: 0;
+            }
+          }
+        }
+        &__content{
+          align-self: stretch;
+          color: $black-color;
+          font-family: "fw-400";
+          font-size: 18px;
+          font-style: normal;
+          line-height: normal;
+        }
+        hr{
+          width: 100%;
+          height: 1px;
+        }
+      }
+    }
+    &__wrap--41{
+      justify-content: center;
+      column-gap: 41px;
+    }
+    &__box{
+      display: flex;
+      padding: 30px;
+      align-items: flex-start;
+      gap: 40px;
+      align-self: stretch;
+      border-radius: 15px;
+      background: $white-color;
+      &__left{
+        display: flex;
+        width: 490px;
+        height: 557px;
+        background: url("../../img/5badb235e52b6454e85403ef0e2647ec.png") 50% / cover no-repeat;
+        &__content{
+          display: flex;
+          width: 249px;
+          height: 500px;
+          padding: 10px;
+          margin: 28px 12px 29px 229px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          flex-shrink: 0;
+          border-radius: 30px;
+          background: rgba(37, 37, 37, 0.60);
+          &__box{
+            display: flex;
+            padding: 30px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            border-radius: 15px;
+            background: $white-color;
+            color: $green-color;
+            text-align: center;
+            font-family: "fw-700";
+            font-size: 28px;
+            font-style: normal;
+            line-height: normal;
+            i{
+              color: $green-color;
+              text-align: center;
+              font-family: Font Awesome 6 Free;
+              font-size: 80px;
+              font-style: normal;
+              font-weight: 900;
+              line-height: normal;
+            }
+            hr{
+              width: 100%;
+              height: 1px;
+            }
+            &__text--confirm{
+              color: $black-color;
+              text-align: center;
+              font-family: "fw-700";
+              font-size: 28px;
+              font-style: normal;
+              line-height: normal;
+            }
+          }
+        }
+      }
+      &__right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        flex: 1 0 0;
+        &__header{
+          align-self: stretch;
+          color: $black-color;
+          font-family: "fw-700";
+          font-size: 28px;
+          font-style: normal;
+          line-height: normal;
+        }
+        &__content{
+          align-self: stretch;
+          color: $black-color;
+          font-family: "fw-400";
+          font-size: 18px;
+          font-style: normal;
+          line-height: normal;
+        }
+        &__card{
+          display: flex;
+          padding: 20px;
+          align-items: center;
+          gap: 40px;
+          align-self: stretch;
+          border-radius: 15px;
+          border: 2px solid $black-color;
+          &__img{
+            width: 286px;
+            height: 176px;
+            background: url("../../img/455864d75a3995b49fbba6d9886f9ea1.png") 50% / cover no-repeat;
+          }
+          &__content{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+            flex: 1 0 0;
+            &__header{
+              align-self: stretch;
+              color: $black-color;
+              font-family: "fw-700";
+              font-size: 32px;
+              font-style: normal;
+              line-height: normal;
+            }
+            &__text{
+              color: $black-color;
+              font-family: "fw-400";
+              font-size: 24px;
+              font-style: normal;
+              line-height: 32px; /* 133.333% */
+            }
+          }
+        }
+        &__QRcode{
+          display: flex;
+          padding: 20px;
+          align-items: center;
+          gap: 40px;
+          border-radius: 15px;
+          border: 2px solid $black-color;
+          &__img{
+            width: 179px;
+            height: 176px;
+            background: url("../../img/cf1dd7348d0164779443d2c2a8925687.png") lightgray 1.902px 0.948px / 97.82% 98.922% no-repeat;
+          }
+        }
+      }
+    }
+    &__group{
+      display: flex;
+      padding: 30px;
+      align-items: center;
+      gap: 40px;
+      align-self: stretch;
+      border-radius: 15px;
+      background: $white-color;
+      &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        flex: 1 0 0;
+        &__header{
+          align-self: stretch;
+          color: $black-color;
+          font-family: "fw-700";
+          font-size: 28px;
+          font-style: normal;
+          line-height: normal;
+        }
+        &__content{
+          align-self: stretch;
+          color: $black-color;
+          font-family: "fw-400";
+          font-size: 18px;
+          font-style: normal;
+          line-height: 28px;
+          b{
+            color: $black-color;
+            font-family: "fw-700";
+            font-size: 18px;
+            font-style: normal;
+            line-height: 28px; /* 155.556% */
+          }
+        }
+      }
+      &__img{
+        width: 259px;
+        height: 259px;
+        background: url("../../img/a137739c9232eb6715ebeda9664c0131.png") lightgray 50% / cover no-repeat;
+      }
+    }
+  }
+  @include media (sm-mobile, mobile) {
+    &__section {
+      &__wrap { 
+        flex-direction: column;
+        gap: 20px;
+        &__card {
+          width: 100%;
+        }
+      }
+      &__box {
+        flex-direction: column;
+        gap: 0;
+        &__left {
+          width: 100%;
+          background: none;
+          justify-content: center;
+          &__content {
+            margin: 0;
+          }
+        }
+        &__right {
+          width: 100%;
+          align-items: center;
+          &__card {
+            flex-direction: column;
+          }
+        }
+      }
+      &__group {
+        flex-direction: column;
+      }
+    }
+  }
+}

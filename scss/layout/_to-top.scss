@@ -1,3 +1,31 @@
-.to-top{
-
+.to-top {
+  display: inline-block;
+  background-color: $main-color-blue;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 0px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  &::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 35px;
+    color: $white-color;
+  }
+  &:active {
+    background-color: rgba($color: $main-color-blue, $alpha: 0.5);
+  }
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
 }

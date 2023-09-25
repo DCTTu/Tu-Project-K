@@ -122,4 +122,28 @@
     flex-direction: column;
     gap: 20px;
   }
+  @include tablet {
+    padding: 60px 30px;
+    &__left{
+      font-size: 20px;
+      &__item{
+        font-size: 16px;
+        i{
+          font-size: 16px;
+        }
+      }
+    }
+    &__center{
+      font-size: 20px;
+      &__item{
+        font-size: 16px;
+        i{
+          font-size: 16px;
+        }
+      }
+    }
+    &__right{
+      height: 150px;
+    }
+  }
 }

@@ -1,0 +1,124 @@
+.warrantyPolicy{
+  &__top{
+    display: flex;
+    padding: 0px 40px;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    &--title{
+      align-self: stretch;
+      color: $black-color;
+      font-family: "fw-700";
+      font-size: 28px;
+      font-style: normal;
+      line-height: normal;
+    }
+    &--text{
+      align-self: stretch;
+      color: $black-color;
+      font-family: "fw-400";
+      font-size: 14px;
+      font-style: normal;
+      line-height: normal;
+    }
+  }
+  &__bottom{
+    display: flex;
+    padding: 0px 40px;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    &__text{
+      align-self: stretch;
+      color: $black-color;
+      font-style: normal;
+      line-height: normal;
+      &--b28{
+        font-size: 28px;
+        font-family: "fw-700";
+      }
+      &--b24{
+        font-size: 24px;
+        font-family: "fw-700";
+      }
+      &--b18{
+        font-size: 18px;
+        font-family: "fw-700";
+      }
+      &--b16{
+        font-size: 16px;
+        font-family: "fw-700";
+      }
+      &--n18{
+        font-size: 18px;
+        font-family: "fw-400";
+      }
+      &--n14{
+        font-size: 14px;
+        font-family: "fw-400";
+      }
+    }
+    ul{
+      margin-left: 20px;
+      padding: 0;
+    }
+    &__card{
+      display: flex;
+      align-items: flex-start;
+      align-content: space-between;
+      gap: 41px;
+      &__item{
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        flex: 1 0 0;
+        border-radius: 15px;
+        background: $white-color;
+        box-shadow: $shadow-box;
+        &__header{
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          align-self: stretch;
+          &__title{
+            flex: 1 0 0;
+            color: $main-color-blue;
+          }
+          &__img{
+            width: 54px;
+            height: 48px;
+            fill: $white-color;
+          }
+        }
+        hr{
+          width: 100%;
+          margin: 0;
+          height:1px;
+        }
+      }
+    }
+    &__contact{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      align-self: stretch;
+      &__card{
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+        align-self: stretch;
+        &__img{
+          height: 232px;
+          flex: 1 0 0;
+        }
+      }
+    }
+  }
+}

@@ -11,6 +11,7 @@
     font-size: 48px;
     font-style: normal;
     line-height: normal;
+    text-decoration: none;
   }
   &__search {
     display: flex;
@@ -20,11 +21,14 @@
     border-radius: 8px;
     border: 1px solid $black-color;
     flex: 1 0 0;
-    input{
+    input {
       flex: 1 0 0;
       outline: none;
       border: none;
       background-color: $main-background-color;
+    }
+    i {
+      cursor: pointer;
     }
   }
   &__info {
@@ -89,6 +93,25 @@
         font-size: 18px;
         i{
           font-size: 14px;
+        }
+      }
+    }
+  }
+  @include tablet {
+    padding: 30px;  
+    &__logo {
+      font-size: 32px;
+    }
+    &__search {
+      
+    }
+    &__info {
+      gap: 10px;
+      font-size: 20px;
+      &__phone {
+        font-size: 18px;
+        i{
+          font-size: 18px;
         }
       }
     }

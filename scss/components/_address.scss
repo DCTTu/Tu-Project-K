@@ -70,6 +70,24 @@
       }
     }
   }
+  @include media(sm-mobile, mobile) {
+    &__details {
+      &__header {
+        justify-content: space-between;
+
+        &::after {
+          content: "\f078";
+          font-family: FontAwesome;
+          font-weight: normal;
+          font-style: normal;
+          font-size: 12px;
+          font-weight: 900;
+          line-height: 18px;
+          color: $white-color;
+        }
+      }
+    }
+  }
   @include sm-mobile {
     height: 450px;
     background: url("../../img/0b6ef4634881383992908b86518d2b9d.png") lightgray -348.924px 0px / 414.116% 100%;
@@ -98,10 +116,28 @@
     }
   }
   @include mobile {
-    height: 497px;
+    height: 550px;
     background: url("../../img/0b6ef4634881383992908b86518d2b9d.png") lightgray -348.924px 0px / 414.116% 100%;
     &__details {
       width: 100%;
+    }
+  }
+  @include tablet {
+    background: url("../../img/0b6ef4634881383992908b86518d2b9d.png") lightgray 0px 0px / 104.01% 100% no-repeat;
+    &__details {
+      &__header {
+        font-size: 16px;
+      }
+      &__body {
+        &__item {
+          &--header {
+            font-size: 16px;
+          }
+          &--content {
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
 }

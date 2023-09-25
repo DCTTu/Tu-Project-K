@@ -8,6 +8,16 @@
 		@content;
 	}
 }
+@mixin tablet {
+	@media (min-width: 768px) and (max-width: 1024px){
+		@content;
+	}
+}
+@mixin xl-desk {
+	@media (min-width: 1920px){
+		@content;
+	}
+}
 @mixin media($keys...) {
   @each $key in $keys {
     @if ($key == sm-mobile) {
@@ -16,6 +26,10 @@
       }
     } @else if ($key == mobile) {
       @include mobile {
+        @content
+      }
+    } @else if ($key == tablet) {
+      @include tablet {
         @content
       }
     }
