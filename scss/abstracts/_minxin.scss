@@ -1,0 +1,23 @@
+@mixin sm-mobile {
+	@media (max-width: 411px) {
+		@content;
+	}
+}
+@mixin mobile {
+	@media (min-width: 412px) and (max-width: 739px) {
+		@content;
+	}
+}
+@mixin media($keys...) {
+  @each $key in $keys {
+    @if ($key == sm-mobile) {
+      @include sm-mobile {
+        @content
+      }
+    } @else if ($key == mobile) {
+      @include mobile {
+        @content
+      }
+    }
+  }
+}
