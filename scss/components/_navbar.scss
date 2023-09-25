@@ -19,6 +19,9 @@
   }
   @include media(sm-mobile, mobile) {
     flex-direction: column;
+    a:not(.navbar--drop) {
+      display: none;
+    }
     a {
       font-size: 16px;
     }

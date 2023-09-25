@@ -155,6 +155,9 @@ body {
   .navbar {
     flex-direction: column;
   }
+  .navbar a:not(.navbar--drop) {
+    display: none;
+  }
   .navbar a {
     font-size: 16px;
   }
@@ -162,6 +165,9 @@ body {
 @media (min-width: 412px) and (max-width: 739px) {
   .navbar {
     flex-direction: column;
+  }
+  .navbar a:not(.navbar--drop) {
+    display: none;
   }
   .navbar a {
     font-size: 16px;
