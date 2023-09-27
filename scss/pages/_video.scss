@@ -48,7 +48,6 @@
       position: relative;
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
       gap: 20px;
       width: 24%;
       &__img {
@@ -113,6 +112,38 @@
       flex-direction: column;
       &__item {
         width: 100%;
+      }
+    }
+  }
+  @include tablet {
+    &__category {
+      margin-top: 20px;
+      &__item {
+        font-size: 16px;
+      }
+    }
+    &__content {
+      padding: 0 20px;
+      margin-top: 20px;
+      &__item {
+        &__img {
+          height: 180px;
+        }
+        &__text {
+          &--bold {
+            font-size: 16px;
+          }
+          &--normal {
+            font-size: 14px;
+          }
+        }
+        &__overlay {
+          height: 180px;
+          &::after {
+            font-size: 60px;
+            line-height: 180px;
+          }
+        }
       }
     }
   }

@@ -277,9 +277,10 @@ listNewsBottomRightListItem_3.forEach((value) => {
 
 let addVideoContentItem = (background) => {
 	$(".video__content").append("<div class='video__content__item'></div>");
-	$(".video__content__item:last").append("<a href='videoDetails.html' class='video__content__item__img'></a>");
+	$(".video__content__item:last").append("<a href='videoDetails.html'></a>");
+	$(".video__content__item > a:last").append("<img class='video__content__item__img'></img>");
 	$(".video__content__item > a:last").append("<div class='video__content__item__overlay'></div>");
-	$(".video__content__item__img:last").css("background", background);
+	$(".video__content__item__img:last").attr("src", background);
 	$(".video__content__item:last").append("<div class='video__content__item__text'></div>");
 	$(".video__content__item__text:last").append("<a href='videoDetails.html' class='video__content__item__text--bold'>ASUS Vivobook S 15 OLED Bape Edition: Chiếc laptop khoác trên</a>");
 	$(".video__content__item__text:last").append("<div class='video__content__item__text--normal'>29N lượt xem 1 tháng trước</div>");
@@ -318,7 +319,9 @@ listVideoContentItem.forEach((value) => {
 
 let addVideoDetailsTopRightItem = () => {
 	$(".videoDetails__top__right").append("<div class='videoDetails__top__right__item'></div>");
-	$(".videoDetails__top__right__item:last").append("<a href='' class='videoDetails__top__right__item__img'></a>");
+	$(".videoDetails__top__right__item:last").append("<a href=''></a>");
+	$(".videoDetails__top__right__item > a:last").append("<img class='videoDetails__top__right__item__img'></img>");
+	$(".videoDetails__top__right__item__img").attr("src","../../img/190da29fd5a57101069640fd2a990bda.png");
 	$(".videoDetails__top__right__item > a:last").append("<div class='videoDetails__top__right__item__overlay'></div>");
 	$(".videoDetails__top__right__item:last").append("<div class='videoDetails__top__right__item__content'></div>");
 	$(".videoDetails__top__right__item__content:last").append("<a href='' class='videoDetails__top__right__item__content__title'>ASUS Vivobook S 15 OLED Bape Edition: Chiếc laptop khoác trên</a>");
