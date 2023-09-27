@@ -509,16 +509,16 @@ addPaymentInstructionsSectionGroupImg(".paymentInstructions__section__group__img
 addPaymentInstructionsSectionGroupImg(".paymentInstructions__section__group__img:last", "../../img/7af46cd512918a3878d5574563e12b92.png') lightgray -16px -27.451px / 112.355% 121.198% no-repeat");
 
 let addWarrantyPolicyBottomContactCardImg = (background) => {
-	$(".warrantyPolicy__bottom__contact__card").append("<div class='warrantyPolicy__bottom__contact__card__img'></div>");
-	$(".warrantyPolicy__bottom__contact__card__img:last").css("background", background);
+	$(".warrantyPolicy__bottom__contact__card").append("<img class='warrantyPolicy__bottom__contact__card__img'></img>");
+	$(".warrantyPolicy__bottom__contact__card__img:last").attr("src", background);
 }
 
 listWarrantyPolicyBottomContactCardImg = [
-	"../../img/66adc58b74858ee4e7de6715d672c643.png') no-repeat center #FFF",
-	"../../img/957a73977007f9ea18dd77e024113eb0.png') no-repeat center #FFF",
-	"../../img/28719efd2e441f57aded97364a0af7a0.png') no-repeat center #FFF",
-	"../../img/97751cf5a7899f1955106b1ac8a3c03d.png') no-repeat center #FFF",
-	"../../img/4b2f484791a466d1f3c99a8d743f7637.png') no-repeat center #FFF"
+	"../../img/66adc58b74858ee4e7de6715d672c643.png",
+	"../../img/957a73977007f9ea18dd77e024113eb0.png",
+	"../../img/28719efd2e441f57aded97364a0af7a0.png",
+	"../../img/97751cf5a7899f1955106b1ac8a3c03d.png",
+	"../../img/4b2f484791a466d1f3c99a8d743f7637.png"
 ]
 
 listWarrantyPolicyBottomContactCardImg.forEach((value) => {

@@ -132,6 +132,61 @@
           &__img {
             border: 1px solid $black-color;
             margin: 10px 0;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  @include tablet {
+    &__top {
+      margin-top: 20px;
+      padding: 0 20px;
+      &--title {
+        font-size: 18px;
+      }
+    }
+    &__bottom {
+      margin-top: 20px;
+      padding: 0 20px;
+      &__text {
+        &--b28 {
+          font-size: 20px;
+        }
+        &--b24 {
+          font-size: 18px;
+        }
+        &--b18 {
+          font-size: 16px;
+        }
+        &--n18 {
+          font-size: 16px;
+        }
+      }
+      ul {
+        margin: 0 0 0 20px;
+      }
+      &__card {
+        gap: 25px;
+        &__item {
+          &__header {
+            &__title {
+
+            }
+            &__img {
+              display: none;
+            }
+          }
+        }
+      }
+      &__contact {
+        &__card {
+          flex-wrap: wrap;
+          gap: 10px;
+          &__img {
+            flex: none;
+            height: 232px;
+            width: 232px;
           }
         }
       }

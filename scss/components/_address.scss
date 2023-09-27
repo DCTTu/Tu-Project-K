@@ -115,6 +115,7 @@
     }
   }
   @include tablet {
+    margin-top: 0;
     background: url("../../img/0b6ef4634881383992908b86518d2b9d.png") lightgray 0px 0px / 104.01% 100% no-repeat;
     &__details {
       &__header {

@@ -320,4 +320,107 @@
       }
     }
   }
+  @include tablet {
+    margin-top: 20px;
+    gap: 20px;
+    &__section {
+      padding: 0 20px;
+      gap: 20px;
+      &__title {
+        gap: 10px;
+        font-size: 14px;
+        &__header {
+          font-size: 18px;
+        }
+      }
+      &__wrap {
+        &__card {
+          font-size: 13px;
+          padding: 15px;
+          gap: 15px;
+          &__header {
+            gap: 10px;
+            &__content {
+              font-size: 16px;
+            }
+            &__box {
+              display: none;
+            }
+          }
+          &__content {
+            font-size: 14px;
+          }
+        }
+      }
+      &__box {
+        padding: 20px;
+        gap: 15px;
+        &__left {
+          height: 300px;
+          width: 270px;
+          background: url("../../img/5badb235e52b6454e85403ef0e2647ec.png");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          &__content {
+            width: 140px;
+            height: 270px;
+            margin: 15px 0 0 125px;
+            border-radius: 15px;
+            padding: 10px;
+            &__box {
+              font-size: 13px;
+              gap: 5px;
+              padding: 10px;
+              i {
+                font-size: 40px;
+              }
+              &__text {
+                &--confirm {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+        &__right {
+          &__header {
+            font-size: 18px;
+          }
+          &__content {
+            font-size: 16px;
+          }
+          &__card {
+            padding: 10px;
+            gap: 10px;
+            border-radius: 8px;
+            &__img {
+              width: 190.67px;
+              height: 117.33px;
+            }
+            &__content {
+              gap: 10px;
+              &__header {
+                font-size: 18px;
+              }
+              &__text {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+      &__group {
+        padding: 20px;
+        &__content {
+          &__header {
+            font-size: 18px;
+          }
+          &__content {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
 }

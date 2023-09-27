@@ -470,6 +470,7 @@ body {
 }
 @media (min-width: 740px) and (max-width: 1024px) {
   .address {
+    margin-top: 0;
     background: url("../../img/0b6ef4634881383992908b86518d2b9d.png") lightgray 0px 0px/104.01% 100% no-repeat;
   }
   .address__details__header {
@@ -2306,6 +2307,103 @@ hr {
     flex-direction: column;
   }
 }
+@media (min-width: 740px) and (max-width: 1024px) {
+  .paymentInstructions {
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .paymentInstructions__section {
+    padding: 0 20px;
+    gap: 20px;
+  }
+  .paymentInstructions__section__title {
+    gap: 10px;
+    font-size: 14px;
+  }
+  .paymentInstructions__section__title__header {
+    font-size: 18px;
+  }
+  .paymentInstructions__section__wrap__card {
+    font-size: 13px;
+    padding: 15px;
+    gap: 15px;
+  }
+  .paymentInstructions__section__wrap__card__header {
+    gap: 10px;
+  }
+  .paymentInstructions__section__wrap__card__header__content {
+    font-size: 16px;
+  }
+  .paymentInstructions__section__wrap__card__header__box {
+    display: none;
+  }
+  .paymentInstructions__section__wrap__card__content {
+    font-size: 14px;
+  }
+  .paymentInstructions__section__box {
+    padding: 20px;
+    gap: 15px;
+  }
+  .paymentInstructions__section__box__left {
+    height: 300px;
+    width: 270px;
+    background: url("../../img/5badb235e52b6454e85403ef0e2647ec.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .paymentInstructions__section__box__left__content {
+    width: 140px;
+    height: 270px;
+    margin: 15px 0 0 125px;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .paymentInstructions__section__box__left__content__box {
+    font-size: 13px;
+    gap: 5px;
+    padding: 10px;
+  }
+  .paymentInstructions__section__box__left__content__box i {
+    font-size: 40px;
+  }
+  .paymentInstructions__section__box__left__content__box__text--confirm {
+    font-size: 16px;
+  }
+  .paymentInstructions__section__box__right__header {
+    font-size: 18px;
+  }
+  .paymentInstructions__section__box__right__content {
+    font-size: 16px;
+  }
+  .paymentInstructions__section__box__right__card {
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px;
+  }
+  .paymentInstructions__section__box__right__card__img {
+    width: 190.67px;
+    height: 117.33px;
+  }
+  .paymentInstructions__section__box__right__card__content {
+    gap: 10px;
+  }
+  .paymentInstructions__section__box__right__card__content__header {
+    font-size: 18px;
+  }
+  .paymentInstructions__section__box__right__card__content__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .paymentInstructions__section__group {
+    padding: 20px;
+  }
+  .paymentInstructions__section__group__content__header {
+    font-size: 18px;
+  }
+  .paymentInstructions__section__group__content__content {
+    font-size: 16px;
+  }
+}
 
 .warrantyPolicy__top {
   display: flex;
@@ -2439,6 +2537,7 @@ hr {
   .warrantyPolicy__bottom__contact__card__img {
     border: 1px solid #303030;
     margin: 10px 0;
+    width: 100%;
   }
 }
 @media (min-width: 412px) and (max-width: 739px) {
@@ -2451,6 +2550,50 @@ hr {
   .warrantyPolicy__bottom__contact__card__img {
     border: 1px solid #303030;
     margin: 10px 0;
+    width: 100%;
+  }
+}
+@media (min-width: 740px) and (max-width: 1024px) {
+  .warrantyPolicy__top {
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  .warrantyPolicy__top--title {
+    font-size: 18px;
+  }
+  .warrantyPolicy__bottom {
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  .warrantyPolicy__bottom__text--b28 {
+    font-size: 20px;
+  }
+  .warrantyPolicy__bottom__text--b24 {
+    font-size: 18px;
+  }
+  .warrantyPolicy__bottom__text--b18 {
+    font-size: 16px;
+  }
+  .warrantyPolicy__bottom__text--n18 {
+    font-size: 16px;
+  }
+  .warrantyPolicy__bottom ul {
+    margin: 0 0 0 20px;
+  }
+  .warrantyPolicy__bottom__card {
+    gap: 25px;
+  }
+  .warrantyPolicy__bottom__card__item__header__img {
+    display: none;
+  }
+  .warrantyPolicy__bottom__contact__card {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .warrantyPolicy__bottom__contact__card__img {
+    flex: none;
+    height: 232px;
+    width: 232px;
   }
 }
 
