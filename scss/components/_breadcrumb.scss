@@ -21,4 +21,9 @@
   @include sm-mobile {
     display: none;
   }
+  @include tablet {
+    &__item {
+      font-size: 16px;
+    }
+  }
 }
