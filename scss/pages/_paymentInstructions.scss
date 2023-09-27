@@ -1,18 +1,18 @@
-.paymentInstructions{
+.paymentInstructions {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 60px;
   margin-top: 30px;
   align-self: stretch;
-  &__section{
+  &__section {
     display: flex;
     padding: 0px 40px;
     flex-direction: column;
     align-items: flex-start;
     gap: 50px;
     align-self: stretch;
-    &__title{
+    &__title {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -23,7 +23,7 @@
       font-size: 18px;
       font-style: normal;
       line-height: normal;
-      &__header{
+      &__header {
         align-self: stretch;
         color: $black-color;
         font-family: "fw-700";
@@ -32,17 +32,15 @@
         line-height: normal;
       }
     }
-    &__wrap{
+    &__wrap {
       display: flex;
-      // width: 1840px;
       justify-content: space-between;
       align-items: flex-start;
       align-content: space-between;
       flex-wrap: wrap;
-      &__card{
+      &__card {
         width: 32%;
         display: flex;
-        // width: 602px;
         padding: 30px;
         flex-direction: column;
         align-items: flex-start;
@@ -56,16 +54,16 @@
         font-size: 18px;
         font-style: italic;
         line-height: normal;
-        a{
+        a {
           color: $black-color;
           text-decoration: none;
         }
-        &__header{
+        &__header {
           display: flex;
           align-items: center;
           gap: 20px;
           align-self: stretch;
-          &__content{
+          &__content {
             flex: 1 0 0;
             color: $main-color-blue;
             font-family: "fw-700";
@@ -73,7 +71,7 @@
             font-style: normal;
             line-height: normal;
           }
-          &__box{
+          &__box {
             display: flex;
             width: 54px;
             height: 48px;
@@ -82,14 +80,14 @@
             align-items: center;
             border-radius: 5px;
             background: $white-color;
-            &__img{
+            &__img {
               width: 54px;
               height: 41.929px;
               flex-shrink: 0;
             }
           }
         }
-        &__content{
+        &__content {
           align-self: stretch;
           color: $black-color;
           font-family: "fw-400";
@@ -97,17 +95,17 @@
           font-style: normal;
           line-height: normal;
         }
-        hr{
+        hr {
           width: 100%;
           height: 1px;
         }
       }
     }
-    &__wrap--41{
+    &__wrap--41 {
       justify-content: center;
       column-gap: 41px;
     }
-    &__box{
+    &__box {
       display: flex;
       padding: 30px;
       align-items: flex-start;
@@ -115,12 +113,12 @@
       align-self: stretch;
       border-radius: 15px;
       background: $white-color;
-      &__left{
+      &__left {
         display: flex;
         width: 490px;
         height: 557px;
         background: url("../../img/5badb235e52b6454e85403ef0e2647ec.png") 50% / cover no-repeat;
-        &__content{
+        &__content {
           display: flex;
           width: 249px;
           height: 500px;
@@ -132,7 +130,7 @@
           flex-shrink: 0;
           border-radius: 30px;
           background: rgba(37, 37, 37, 0.60);
-          &__box{
+          &__box {
             display: flex;
             padding: 30px;
             flex-direction: column;
@@ -147,7 +145,7 @@
             font-size: 28px;
             font-style: normal;
             line-height: normal;
-            i{
+            i {
               color: $green-color;
               text-align: center;
               font-family: Font Awesome 6 Free;
@@ -156,11 +154,11 @@
               font-weight: 900;
               line-height: normal;
             }
-            hr{
+            hr {
               width: 100%;
               height: 1px;
             }
-            &__text--confirm{
+            &__text--confirm {
               color: $black-color;
               text-align: center;
               font-family: "fw-700";
@@ -171,13 +169,13 @@
           }
         }
       }
-      &__right{
+      &__right {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
         flex: 1 0 0;
-        &__header{
+        &__header {
           align-self: stretch;
           color: $black-color;
           font-family: "fw-700";
@@ -185,7 +183,7 @@
           font-style: normal;
           line-height: normal;
         }
-        &__content{
+        &__content {
           align-self: stretch;
           color: $black-color;
           font-family: "fw-400";
@@ -193,7 +191,7 @@
           font-style: normal;
           line-height: normal;
         }
-        &__card{
+        &__card {
           display: flex;
           padding: 20px;
           align-items: center;
@@ -201,18 +199,18 @@
           align-self: stretch;
           border-radius: 15px;
           border: 2px solid $black-color;
-          &__img{
+          &__img {
             width: 286px;
             height: 176px;
             background: url("../../img/455864d75a3995b49fbba6d9886f9ea1.png") 50% / cover no-repeat;
           }
-          &__content{
+          &__content {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             gap: 20px;
             flex: 1 0 0;
-            &__header{
+            &__header {
               align-self: stretch;
               color: $black-color;
               font-family: "fw-700";
@@ -220,7 +218,7 @@
               font-style: normal;
               line-height: normal;
             }
-            &__text{
+            &__text {
               color: $black-color;
               font-family: "fw-400";
               font-size: 24px;
@@ -229,14 +227,14 @@
             }
           }
         }
-        &__QRcode{
+        &__QRcode {
           display: flex;
           padding: 20px;
           align-items: center;
           gap: 40px;
           border-radius: 15px;
           border: 2px solid $black-color;
-          &__img{
+          &__img {
             width: 179px;
             height: 176px;
             background: url("../../img/cf1dd7348d0164779443d2c2a8925687.png") lightgray 1.902px 0.948px / 97.82% 98.922% no-repeat;
@@ -244,7 +242,7 @@
         }
       }
     }
-    &__group{
+    &__group { 
       display: flex;
       padding: 30px;
       align-items: center;
@@ -252,13 +250,13 @@
       align-self: stretch;
       border-radius: 15px;
       background: $white-color;
-      &__content{
+      &__content {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
         flex: 1 0 0;
-        &__header{
+        &__header {
           align-self: stretch;
           color: $black-color;
           font-family: "fw-700";
@@ -266,14 +264,14 @@
           font-style: normal;
           line-height: normal;
         }
-        &__content{
+        &__content {
           align-self: stretch;
           color: $black-color;
           font-family: "fw-400";
           font-size: 18px;
           font-style: normal;
           line-height: 28px;
-          b{
+          b {
             color: $black-color;
             font-family: "fw-700";
             font-size: 18px;
@@ -282,7 +280,7 @@
           }
         }
       }
-      &__img{
+      &__img {
         width: 259px;
         height: 259px;
         background: url("../../img/a137739c9232eb6715ebeda9664c0131.png") lightgray 50% / cover no-repeat;

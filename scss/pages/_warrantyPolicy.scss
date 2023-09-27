@@ -121,4 +121,20 @@
       }
     }
   }
+  @include media(sm-mobile, mobile) {
+    &__bottom {
+      &__card {
+        flex-direction: column;
+      }
+      &__contact {
+        &__card {
+          display: block;
+          &__img {
+            border: 1px solid $black-color;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
 }

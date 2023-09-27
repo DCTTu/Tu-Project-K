@@ -2260,6 +2260,30 @@ hr {
   height: 232px;
   flex: 1 0 0;
 }
+@media (max-width: 411px) {
+  .warrantyPolicy__bottom__card {
+    flex-direction: column;
+  }
+  .warrantyPolicy__bottom__contact__card {
+    display: block;
+  }
+  .warrantyPolicy__bottom__contact__card__img {
+    border: 1px solid #303030;
+    margin: 10px 0;
+  }
+}
+@media (min-width: 412px) and (max-width: 739px) {
+  .warrantyPolicy__bottom__card {
+    flex-direction: column;
+  }
+  .warrantyPolicy__bottom__contact__card {
+    display: block;
+  }
+  .warrantyPolicy__bottom__contact__card__img {
+    border: 1px solid #303030;
+    margin: 10px 0;
+  }
+}
 
 .footer {
   display: flex;

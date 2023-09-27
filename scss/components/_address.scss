@@ -10,14 +10,12 @@
   &__details {
     display: flex;
     width: 349px;
-    // height: 451px;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     border-radius: 8px;
     border: 1px solid $black-color;
     background: $white-color;
-
     &__header {
       display: flex;
       padding: 15px 20px;
@@ -32,7 +30,6 @@
       font-style: normal;
       line-height: normal;
     }
-
     &__body {
       display: flex;
       height: fit-content;
@@ -40,7 +37,6 @@
       align-items: flex-start;
       flex-shrink: 0;
       align-self: stretch;
-
       &__item {
         display: flex;
         padding: 15px 20px;
@@ -48,7 +44,6 @@
         align-items: flex-start;
         gap: 10px;
         align-self: stretch;
-
         &--header {
           color: $black-color;
           font-family: "fw-700";
@@ -57,7 +52,6 @@
           line-height: normal;
           text-transform: capitalize;
         }
-
         &--content {
           align-self: stretch;
           color: $black-color;
@@ -74,7 +68,6 @@
     &__details {
       &__header {
         justify-content: space-between;
-
         &::after {
           content: "\f078";
           font-family: FontAwesome;
@@ -107,7 +100,6 @@
           &--header {
             font-size: 16px;
           }
-
           &--content {
             font-size: 14px;
           }

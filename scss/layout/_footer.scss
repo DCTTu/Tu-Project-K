@@ -1,4 +1,4 @@
-.footer{
+.footer {
   display: flex;
   margin-top: 30px;
   padding: 60px 40px;
@@ -6,7 +6,7 @@
   gap: 10px;
   align-self: stretch;
   background: $black-color;
-  &__left{
+  &__left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -18,7 +18,7 @@
     font-style: normal;
     line-height: normal;
     text-transform: capitalize;
-    &__item{
+    &__item {
       display: flex;
       align-items: center;
       gap: 20px;
@@ -27,7 +27,7 @@
       font-size: 18px;
       font-style: normal;
       line-height: normal;
-      i{
+      i {
         color: $white-color;
         font-family: Font Awesome 6 Free;
         font-size: 18px;
@@ -37,7 +37,7 @@
       }
     }
   }
-  &__center{
+  &__center {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -49,7 +49,7 @@
     font-style: normal;
     line-height: normal;
     text-transform: capitalize;
-    &__item{
+    &__item {
       display: flex;
       align-items: center;
       gap: 20px;
@@ -58,7 +58,7 @@
       font-size: 18px;
       font-style: normal;
       line-height: normal;
-      i{
+      i {
         color: $white-color;
         font-family: Font Awesome 6 Free;
         font-size: 18px;
@@ -68,7 +68,7 @@
       }
     }
   }
-  &__right{
+  &__right {
     display: flex;
     height: 207px;
     flex-direction: column;
@@ -77,34 +77,34 @@
     flex: 1 0 0;
     background: url("../../img/fce0b8f070a0595a0b34ce619b9ee747.png") lightgray 50% / cover no-repeat;
   }
-  a{
+  a {
     color: $white-color;
     text-decoration: none;
   }
   @include media(sm-mobile, mobile) {
-    &__left{
+    &__left {
       gap: 20px;
       font-size: 18px;
-      &__item{
+      &__item {
         gap: 20px;
         font-size: 14px;
-        i{
+        i {
           font-size: 14px;
         }
       }
     }
-    &__center{
+    &__center {
       gap: 20px;
       font-size: 18px;
-      &__item{
+      &__item {
         gap: 20px;
         font-size: 14px;
-        i{
+        i {
           font-size: 14px;
         }
       }
     }
-    &__right{
+    &__right {
       height: 170px;
       width: 100%;
       flex: none;
@@ -124,25 +124,25 @@
   }
   @include tablet {
     padding: 60px 30px;
-    &__left{
+    &__left {
       font-size: 20px;
-      &__item{
+      &__item {
         font-size: 16px;
-        i{
+        i {
           font-size: 16px;
         }
       }
     }
-    &__center{
+    &__center {
       font-size: 20px;
-      &__item{
+      &__item {
         font-size: 16px;
-        i{
+        i {
           font-size: 16px;
         }
       }
     }
-    &__right{
+    &__right {
       height: 150px;
     }
   }
