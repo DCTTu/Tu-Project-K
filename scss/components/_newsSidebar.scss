@@ -42,4 +42,19 @@
   }
   @include tablet {
   }
+  @include tablet {
+    &__header {
+      padding: 20px;
+      &__text {
+        font-size: 16px;
+      }
+    }
+    &__item {
+      gap: 10px;
+      &__img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
 }

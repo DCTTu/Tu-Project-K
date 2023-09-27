@@ -177,4 +177,63 @@
       }
     }
   }
+  @include tablet {
+    &__top {
+      padding: 0 20px;
+      gap: 15px;
+      &__left {
+        &__img {
+          height: 380px;
+        }
+        &__title {
+          font-size: 16px;
+        }
+      }
+      &__center {
+        &__item {
+          &__img {
+            height: 180px;
+          }
+          &__title {
+            font-size: 16px;
+          }
+        }
+      }
+      &__right {
+        &__header {
+          padding: 20px;
+          &__text {
+            font-size: 16px;
+          }
+        }
+        &__item {
+          gap: 10px;
+          &__img {
+            height: 60px;
+            width: 60px;
+          }
+        }
+      }
+    }
+    &__bottom {
+      flex-direction: column;
+      &__left {
+        width: 100%;
+        &__top {
+          &__item {
+            &__img {
+              width: 296px;
+              height: 176px;
+            }
+            &__title {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      &__right {
+        width: 100%;
+      }
+    }
+  }
 }

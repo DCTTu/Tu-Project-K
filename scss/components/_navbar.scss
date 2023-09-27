@@ -36,6 +36,7 @@
     margin-top: 20px;
   }
   @include tablet {
+    margin-top: 0;
     a {
       padding: 10px;
       font-size: 16px;

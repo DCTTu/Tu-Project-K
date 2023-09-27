@@ -50,4 +50,8 @@
   &:hover {
     background-color: rgba($color: $black-color, $alpha: 0.4);
   }
+  @include tablet {
+    padding: 10px;
+    font-size: 16px;
+  }
 }

@@ -59,6 +59,19 @@
       }
     }
   }
+  @include tablet {
+    &__box {
+      &__img {
+        width: 296px;
+        height: 176px;
+      }
+      &__text {
+        &__title {
+          font-size: 16px;
+        }
+      }
+    }
+  }
 }
 hr {
   width: 100%;

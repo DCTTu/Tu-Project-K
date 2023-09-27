@@ -22,8 +22,10 @@
     display: none;
   }
   @include tablet {
+    margin-top: 20px;
     &__item {
       font-size: 16px;
+      padding: 0;
     }
   }
 }

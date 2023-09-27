@@ -332,97 +332,97 @@ for (let i=0; i<5; i++) {
 let addNewsDetailsLeftContent = (background, text) => {
 	$(".newsDetails__left").append("<div class='newsDetails__left__text'></div>");
 	$(".newsDetails__left__text:last").text(text);
-	$(".newsDetails__left").append("<div class='newsDetails__left__img'></div>");
-	$(".newsDetails__left__img:last").css("background", background);
+	$(".newsDetails__left").append("<img class='newsDetails__left__img'></img>");
+	$(".newsDetails__left__img:last").attr("src", background);
 }
 
 listNewsDetailsLeftContent = [
 	{
-		background: "../../img/f93851104474f36909c9ef2ab6a90ed9.png') lightgray 50% / cover no-repeat",
+		background: "../../img/f93851104474f36909c9ef2ab6a90ed9.png",
 		text: "Vừa qua, ASUS đã trình làng máy tính Vivobook S 15 OLED, sản phẩm sở hữu cấu hình mạnh mẽ cùng với đó là nhiều tính năng hấp dẫn. Nhà sản xuất đã kết hợp với thương hiệu thời trang nổi tiếng, BAPE, tạo nên phiên bản đặc biệt BAPE Edition. Hãy cùng Sforum trên tay phiên bản đặc biệt này nhé!"
 	},
 	{
-		background: "../../img/044f2b74543dbbe81c79fc3b45fd9bed.png') lightgray 50% / cover no-repeat",
+		background: "../../img/044f2b74543dbbe81c79fc3b45fd9bed.png",
 		text: "Đầu tiên chúng ta cần tìm hiểu BAPE là gì? BAPE là thương hiệu thời trang đường phố nổi tiếng toàn cầu của Nhật Bản, được thành lập bởi Nigo vào năm 1993 tại Tokyo, Nhật Bản. Trong hơn 30 năm qua, thương hiệu ngày càng lớn mạnh và mở rộng kinh doanh sang các ngành khác nhau. Bây giờ thương hiệu thuộc sở hữu của tập đoàn I.T và trụ sở chính có trụ sở tại Hồng Kông."
 	},
 	{
-		background: "../../img/1d1d62aaf05c4b106f21b29ac62d98dc.png') lightgray 50% / cover no-repeat",
+		background: "../../img/1d1d62aaf05c4b106f21b29ac62d98dc.png",
 		text: "ASUS Vivobook S 15 OLED BAPE Edition có hai phiên bản là Midnight Black Set và Cool Silver Set. Phiên bản Sforum trên tay là Midnight Black Set. Thiết kế vỏ hộp cũng vô cùng đặc biệt với màu rằn ri xanh, logo BAPE kích thước lớn cùng với đó là tên máy."
 	},
 	{
-		background: "../../img/a2b8e06509041071acc62b5b79e9144e.png') lightgray 50% / cover no-repeat",
+		background: "../../img/a2b8e06509041071acc62b5b79e9144e.png",
 		text: "Trong một set sản phẩm ngoài máy sẽ có một chiếc túi để đựng laptop, một con chuột , bộ sticker, hình nền và một món đồ chơi nhỏ đều được thiết kế bởi BAPE với tông màu xanh rằn ri."
 	},
 	{
-		background: "../../img/d0d8d54d13665bb5fe572125268b2a2a.png') lightgray 50% / cover no-repeat",
+		background: "../../img/d0d8d54d13665bb5fe572125268b2a2a.png",
 		text: "Chiếc túi được thiết kế đặc biệt để bảo vệ máy khỏi tai nạn. Túi có các hoa văn độc đáo do BAPE và ASUS Design Center đồng thiết kế. Ngoài ra túi đựng có thể được mở ở góc 180 độ và có nhiều túi bên trong, cung cấp không gian rộng rãi để đựng chuột, bộ chuyển đổi và các phụ kiện. Với chiếc túi đựng này, bạn có thể mang theo chiếc máy của mình mọi lúc mọi nơi."
 	},
 	{
-		background: "../../img/cf43416c18833269610d4bfce25ac46b.png') lightgray 50% / cover no-repeat",
+		background: "../../img/cf43416c18833269610d4bfce25ac46b.png",
 		text: "Phiên bản BAPE Edition có thiết kế độc quyền trên bàn di chuột và khu vực chiếu nghỉ tay, với thiết kế ban đầu của BAPE được áp dụng để tạo ra một chiếc máy tính xách tay độc đáo và phiên bản giới hạn mà bạn sẽ không tìm thấy ở bất kỳ nơi nào khác trên thị trường. Hơn nữa, mỗi phím trên bàn phím đều có một sticker đặc biệt do BAPE thiết kế ban đầu. Bạn có thể tự do trang trí mỗi phím theo sở thích cá nhân của bạn."
 	},
 	{
-		background: "../../img/76c626261fd54208df585ae1d9b3f2a4.png') lightgray 50% / cover no-repeat",
+		background: "../../img/76c626261fd54208df585ae1d9b3f2a4.png",
 		text: "Phiên bản BAPE đi kèm với một con chuột nhỏ gọn có hai nắp trên có thể hoán đổi cho nhau. Chuột còn đi kèm dây đeo tiện dụng giúp bạn dễ dàng mang theo bên mình. Vỏ màu đen thể hiện phong cách huyền bí và mát mẻ của hoa văn đặc biệt, trong khi phiên bản màu xanh lá cây phù hợp với màu sắc của túi đựng."
 	},
 	{
-		background: "../../img/2f4cda81d1ca702198f8de69be71a458.png') lightgray 50% / cover no-repeat",
+		background: "../../img/2f4cda81d1ca702198f8de69be71a458.png",
 		text: "Phối hợp với BAPE, Trung tâm Thiết kế ASUS đã tạo ra mô hình Baby Milo mang tính biểu tượng đang mang theo máy tính xách tay Vivobook."
 	},
 	{
-		background: "../../img/e72bfde490819bbf2609a4267bbd77f2.png') lightgray 50% / cover no-repeat",
+		background: "../../img/e72bfde490819bbf2609a4267bbd77f2.png",
 		text: "Ngoài ra máy tính cũng cũng có hình nền đặc biệt được thiết kế với tông màu xanh rằn ri như các phụ kiện khác."
 	},
 	{
-		background: "../../img/f7dede35617aad010066727ee96d4767.png') lightgray 50% / cover no-repeat",
+		background: "../../img/f7dede35617aad010066727ee96d4767.png",
 		text: "Cuối cùng cũng có một bộ sticker để người dùng trang trí máy theo sở thích. Về thiết kế, ASUS Vivobook S 15 OLED BAPE Edition sở hữu thiết kế cao cấp. Mặt A được hoàn thiện từ kim loại có thiết kế camo tuyến tính được khắc laser chính xác và cũng được trang trí bằng thẻ tag logo phản chiếu."
 	},
 	{
-		background: "../../img/19ee28b72a47e27654f9cce95fae8904.png') lightgray 50% / cover no-repeat",
+		background: "../../img/19ee28b72a47e27654f9cce95fae8904.png",
 		text: "Chiếc máy sở hữu kích thước vô cùng mỏng nhẹ với độ dày chỉ 17.9mm và nặng 1.7kg giúp cho người dùng có thể đem đi một cách dễ dàng. Mức độ hoàn thiện cũng vô cùng tốt tạo cảm giác vô cùng cứng cáp."
 	},
 	{
-		background: "../../img/5b1d54e8e1fed7b0042a7b48292cc757.png') lightgray 50% / cover no-repeat",
+		background: "../../img/5b1d54e8e1fed7b0042a7b48292cc757.png",
 		text: "Cạnh phải là nơi đặt cổng nguồn, HDMI 1.4, USB 3.2 Gen 1 Type-A, Thunderbolt 4 USB-C và giắc âm thanh 3.5mm."
 	},
 	{
-		background: "../../img/a1e56bda540ef7f086ae0286e0c12e5f.png') lightgray 50% / cover no-repeat",
+		background: "../../img/a1e56bda540ef7f086ae0286e0c12e5f.png",
 		text: "Cạnh trái khá trống trải khi chỉ có USB 2.0 và lỗ tản nhiệt. Số lượng cổng kết nối này đủ để đáp ứng được tất cả các nhu cầu của người dùng văn phòng thông thường."
 	},
 	{
-		background: "../../img/2adcdb0bd18169aa2669bbe4b2458783.png') lightgray 50% / cover no-repeat",
+		background: "../../img/2adcdb0bd18169aa2669bbe4b2458783.png",
 		text: "Mặt D là nơi đặt hệ thống tản nhiệt, hệ thống loa hai bên và chân đế cao su để cố định máy trong quá trình sử dụng cũng như nâng máy giúp quá trình thoát nhiệt diễn ra dễ dàng hơn. Ở dưới đáy máy nhà sản xuất cũng đã khéo léo in chìm logo của BAPE"
 	},
 	{
-		background: "../../img/ce2b15830f161d188775e48c507fcc07.png') lightgray 50% / cover no-repeat",
+		background: "../../img/ce2b15830f161d188775e48c507fcc07.png",
 		text: "ASUS Vivobook S 15 OLED BAPE Edition được trang bị màn hình OLED NanoEdge với kích thước 15.6 inch hỗ trợ tỉ lệ 16:9, độ phân giải 2.8K, tần số quét 120Hz, độ sáng tối đa 600 nit và 100% dải màu DCI-P3."
 	},
 	{
-		background: "../../img/e1b0fec8bf35f76a4682e26b2642642a.png') lightgray 50% / cover no-repeat",
+		background: "../../img/e1b0fec8bf35f76a4682e26b2642642a.png",
 		text: "Màn hình chất lượng cao cùng với đó là tỷ lệ màn hình so với thân máy là 86% đem tới trải nghiệm sử dụng tràn viền. Màn hình này có thể đáp ứng được kể cả những người dùng yêu cầu cao. Tuy nhiên tấm nền OLED cũng sẽ có phần hơi nịnh mắt một chút so với tấm nền IPS cho nên người dùng cần màu sắc chính xác cao thì sẽ cần phải làm quen để tận dụng hết khả năng của màn hình này."
 	},
 	{
-		background: "../../img/255538b8df633d2070e5eeb360e5be8a.png') lightgray 50% / cover no-repeat",
+		background: "../../img/255538b8df633d2070e5eeb360e5be8a.png",
 		text: "ASUS Vivobook S 15 OLED BAPE Edition sở hữu bàn phím ASUS ErgoSense kích thước full size với đầy đủ các phím và bàn phím số. Với độ cao phím 19.05mm, nắp phím 0.2mm và hành trình phím dài 1.4mm, bàn phím này đem tới trải nghiệm sử dụng khá tốt. Nhà sản xuất cũng biết tạo dấu ấn với phím ESC đặc biệt có màu cam. Ngoài ra trên bàn phím cũng có cảm biến vân tay được tích hợp với phím nguồn."
 	},
 	{
-		background: "../../img/487212e39dc46eba59645b237cde247f.png') lightgray 50% / cover no-repeat",
+		background: "../../img/487212e39dc46eba59645b237cde247f.png",
 		text: "Trackpad có kích thước lớn đem tới trải nghiệm sử dụng thoải mái và mượt mà."
 	},
 	{
-		background: "../../img/52648bddd509962821d1540f7680e57f.png') lightgray 50% / cover no-repeat",
+		background: "../../img/52648bddd509962821d1540f7680e57f.png",
 		text: "Về hiệu năng, ASUS Vivobook S 15 OLED BAPE Edition được trang bị CPU Intel Core i5-13500H thế hệ 13. Đi kèm với đó là 16GB RAM LPDDR5 và 512GB SSD M2 NVME PCIe 4.0. Cấu hình này dư sức đáp ứng được các nhu cầu sử dụng cơ bản của hầu hết người dùng hiện nay."
 	},
 	{
-		background: "../../img/e7ba8b4370f49b8e4440e642f862b52a.png') lightgray 50% / cover no-repeat",
+		background: "../../img/e7ba8b4370f49b8e4440e642f862b52a.png",
 		text: "Công nghệ tản nhiệt ASUS IceCool giúp Vivobook S 15 OLED BAPE Edition luôn mát mẻ với các ống dẫn nhiệt 8 mm và 6 mm được nâng cấp cùng một quạt IceBlade giúp tăng tốc quá trình truyền nhiệt một cách hiệu quả. Quạt và cánh quạt 87 cánh nhẹ hơn và mỏng hơn so với quạt thông thường, cũng như ít rung hơn, nhờ đó Vivobook của bạn có thể chạy thoải mái ở mức TDP lên đến 45."
 	},
 	{
-		background: "../../img/52648bddd509962821d1540f7680e57f.png') lightgray 50% / cover no-repeat",
+		background: "../../img/52648bddd509962821d1540f7680e57f.png",
 		text: "ASUS Vivobook S 15 OLED BAPE Edition được trang bị viên pin với dung lượng 75Wh hứa hẹn sẽ đem tới thời gian sử dụng ấn tượng. Thêm vào đó, bộ nguồn 90W sẽ cho phép thời gian sạc máy nhanh chóng."
 	},
 	{
-		background: "../../img/bb4c41d901eb1ae71d35c782b6af4952.png') lightgray 50% / cover no-repeat",
+		background: "../../img/bb4c41d901eb1ae71d35c782b6af4952.png",
 		text: "ASUS Vivobook S 15 OLED BAPE Edition là thể hiện một sự kết hợp hoàn hảo giữa công nghệ và thời trang. Sản phẩm sở hữu thiết kế đẹp mắt cùng với những phụ kiện độc đáo. Ở khía cạnh công nghệ, chiếc máy sở hữu cấu hình vô cùng mạnh mẽ cùng với đó là nhiều tính năng phục vụ tốt cho người dùng. Phiên bản đặc biệt ASUS Vivobook S 15 OLED BAPE Edition sẽ được bán tại thị trường Việt Nam với mức giá 26,990,000 đồng. Hiện sản phẩm chưa lên kệ tại thị trường Việt Nam, sản phẩm dự kiến sẽ mở bán trong thời gian sắp tới. Bạn đọc quan tâm đến sản phẩm ASUS vivobook có thể tham khảo phiên bản dưới đây có cấu hình tương tự. Một vài hình ảnh khác của ASUS Vivobook S 15 OLED BAPE Edition:"
 	}
 ]
@@ -466,15 +466,15 @@ let addPaymentInstructionsSectionWrapCard = (selector, background, text) => {
 
 listPaymentInstructionsSectionWrapCard_1 = [
 	{
-		background: "../../img/1e3d7d069ec33b2c7f36ecf483a4a305.png') lightgray 50% / cover no-repeat",
+		background: "../../img/1e3d7d069ec33b2c7f36ecf483a4a305.png",
 		text: "Thanh toán chuyển khoản"
 	},
 	{
-		background: "../../img/54cee625c4af5e6771d51f075f0e8da2.png') lightgray 50% / cover no-repeat",
+		background: "../../img/54cee625c4af5e6771d51f075f0e8da2.png",
 		text: "Thanh toán trực tiếp"
 	},
 	{
-		background: "../../img/7af46cd512918a3878d5574563e12b92.png') lightgray 50% / cover no-repeat",
+		background: "../../img/7af46cd512918a3878d5574563e12b92.png",
 		text: "Thanh toán khi nhận hàng"
 	}
 ]
@@ -485,11 +485,11 @@ listPaymentInstructionsSectionWrapCard_1.forEach((value) => {
 
 listPaymentInstructionsSectionWrapCard_2 = [
 	{
-		background: "../../img/a137739c9232eb6715ebeda9664c0131.png') lightgray 50% / cover no-repeat",
+		background: "../../img/a137739c9232eb6715ebeda9664c0131.png",
 		text: "Thanh toán Ví điện tử MoMo"
 	},
 	{
-		background: "../../img/c47eb93fd27f65a4f1b85cd84d49f899.png') lightgray 50% / cover no-repeat",
+		background: "../../img/c47eb93fd27f65a4f1b85cd84d49f899.png",
 		text: "Thanh toán ứng dụng Zalopay"
 	}
 ]
@@ -502,7 +502,7 @@ let addPaymentInstructionsSectionGroupImg = (selector, background) => {
 	$(selector).css("background", background);
 }
 
-addPaymentInstructionsSectionGroupImg(".paymentInstructions__section__group__img:nth-child(1)", "../../img/c47eb93fd27f65a4f1b85cd84d49f899.png') lightgray 50% / cover no-repeat");
+addPaymentInstructionsSectionGroupImg(".paymentInstructions__section__group__img:nth-child(1)", "../../img/c47eb93fd27f65a4f1b85cd84d49f899.png");
 addPaymentInstructionsSectionGroupImg(".paymentInstructions__section__group__img:last", "../../img/7af46cd512918a3878d5574563e12b92.png') lightgray -16px -27.451px / 112.355% 121.198% no-repeat");
 
 let addWarrantyPolicyBottomContactCardImg = (background) => {

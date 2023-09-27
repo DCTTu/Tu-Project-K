@@ -54,4 +54,8 @@
       width: 100%;
     }
   }
+  @include tablet {
+    margin-top: 20px;
+    padding: 0 20px;
+  }
 }
