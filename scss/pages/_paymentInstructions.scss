@@ -202,7 +202,6 @@
           &__img {
             width: 286px;
             height: 176px;
-            background: url("../../img/455864d75a3995b49fbba6d9886f9ea1.png") 50% / cover no-repeat;
           }
           &__content {
             display: flex;
@@ -317,6 +316,20 @@
       }
       &__group {
         flex-direction: column;
+      }
+    }
+  }
+  @include sm-mobile {
+    &__section {
+      &__box {
+        &__right {
+          &__card {
+            &__img {
+              width: 190.67px;
+              height: 117.33px;
+            }
+          }
+        }
       }
     }
   }

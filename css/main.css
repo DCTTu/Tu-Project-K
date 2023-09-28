@@ -552,7 +552,6 @@ body {
 }
 .newsItemBottom__box {
   display: flex;
-  align-items: flex-start;
   gap: 20px;
   align-self: stretch;
 }
@@ -1933,6 +1932,9 @@ hr {
   .newsDetails__left {
     width: 100%;
   }
+  .newsDetails__left__img {
+    object-fit: cover;
+  }
   .newsDetails__right {
     width: 100%;
   }
@@ -1943,6 +1945,9 @@ hr {
   }
   .newsDetails__left {
     width: 100%;
+  }
+  .newsDetails__left__img {
+    object-fit: cover;
   }
   .newsDetails__right {
     width: 100%;
@@ -2164,7 +2169,6 @@ hr {
 .paymentInstructions__section__box__right__card__img {
   width: 286px;
   height: 176px;
-  background: url("../../img/455864d75a3995b49fbba6d9886f9ea1.png") 50%/cover no-repeat;
 }
 .paymentInstructions__section__box__right__card__content {
   display: flex;
@@ -2305,6 +2309,12 @@ hr {
   }
   .paymentInstructions__section__group {
     flex-direction: column;
+  }
+}
+@media (max-width: 411px) {
+  .paymentInstructions__section__box__right__card__img {
+    width: 190.67px;
+    height: 117.33px;
   }
 }
 @media (min-width: 740px) and (max-width: 1024px) {
