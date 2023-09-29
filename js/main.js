@@ -460,8 +460,8 @@ let addPaymentInstructionsSectionWrapCard = (selector, background, text) => {
 	$(".paymentInstructions__section__wrap__card__header:last").append("<div class='paymentInstructions__section__wrap__card__header__content'></div>");
 	$(".paymentInstructions__section__wrap__card__header__content:last").text(text);
 	$(".paymentInstructions__section__wrap__card__header:last").append("<div class='paymentInstructions__section__wrap__card__header__box'></div>");
-	$(".paymentInstructions__section__wrap__card__header__box:last").append("<div class='paymentInstructions__section__wrap__card__header__box__img'></div>");
-	$(".paymentInstructions__section__wrap__card__header__box__img:last").css("background", background);
+	$(".paymentInstructions__section__wrap__card__header__box:last").append("<img class='paymentInstructions__section__wrap__card__header__box__img'></img>");
+	$(".paymentInstructions__section__wrap__card__header__box__img:last").attr("src", background);
 	$(".paymentInstructions__section__wrap__card:last").append("<hr/>");
 	$(".paymentInstructions__section__wrap__card:last").append("<div class='paymentInstructions__section__wrap__card__content'>Quý khách có thể chuyển khoản qua tài khoản của ngân hàng của bạn</div>");
 	$(".paymentInstructions__section__wrap__card:last").append("<a href='#'>Chi tiết - thông tin  >></a>");
@@ -502,11 +502,11 @@ listPaymentInstructionsSectionWrapCard_2.forEach((value) => {
 });
 
 let addPaymentInstructionsSectionGroupImg = (selector, background) => {
-	$(selector).css("background", background);
+	$(selector).attr("src", background);
 }
 
 addPaymentInstructionsSectionGroupImg(".paymentInstructions__section__group__img:nth-child(1)", "../../img/c47eb93fd27f65a4f1b85cd84d49f899.png");
-addPaymentInstructionsSectionGroupImg(".paymentInstructions__section__group__img:last", "../../img/7af46cd512918a3878d5574563e12b92.png') lightgray -16px -27.451px / 112.355% 121.198% no-repeat");
+addPaymentInstructionsSectionGroupImg(".paymentInstructions__section__group__img:last", "../../img/7af46cd512918a3878d5574563e12b92.png");
 
 let addWarrantyPolicyBottomContactCardImg = (background) => {
 	$(".warrantyPolicy__bottom__contact__card").append("<img class='warrantyPolicy__bottom__contact__card__img'></img>");

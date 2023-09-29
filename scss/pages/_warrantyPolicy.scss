@@ -116,7 +116,9 @@
         align-self: stretch;
         &__img{
           height: 232px;
-          flex: 1 0 0;
+          background-color: $white-color;
+          width: 232px;
+          object-fit: contain;
         }
       }
     }
@@ -183,6 +185,7 @@
         &__card {
           flex-wrap: wrap;
           gap: 10px;
+          justify-content: center;
           &__img {
             flex: none;
             height: 232px;

@@ -64,6 +64,9 @@
       }
     }
   }
+  &--nom {
+    margin-top: 0;
+  }
   @include media(sm-mobile, mobile) {
     &__details {
       &__header {

@@ -84,6 +84,7 @@
               width: 54px;
               height: 41.929px;
               flex-shrink: 0;
+              object-fit: cover;
             }
           }
         }
@@ -282,7 +283,7 @@
       &__img {
         width: 259px;
         height: 259px;
-        background: url("../../img/a137739c9232eb6715ebeda9664c0131.png") lightgray 50% / cover no-repeat;
+        object-fit: cover;
       }
     }
   }

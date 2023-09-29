@@ -403,6 +403,9 @@ body {
   line-height: normal;
   text-transform: capitalize;
 }
+.address--nom {
+  margin-top: 0;
+}
 @media (max-width: 411px) {
   .address__details__header {
     justify-content: space-between;
@@ -1917,6 +1920,7 @@ hr {
 .newsDetails__left__img {
   height: 800px;
   align-self: stretch;
+  object-fit: cover;
 }
 .newsDetails__right {
   width: 30%;
@@ -2052,6 +2056,7 @@ hr {
   width: 54px;
   height: 41.929px;
   flex-shrink: 0;
+  object-fit: cover;
 }
 .paymentInstructions__section__wrap__card__content {
   align-self: stretch;
@@ -2247,7 +2252,7 @@ hr {
 .paymentInstructions__section__group__img {
   width: 259px;
   height: 259px;
-  background: url("../../img/a137739c9232eb6715ebeda9664c0131.png") lightgray 50%/cover no-repeat;
+  object-fit: cover;
 }
 @media (max-width: 411px) {
   .paymentInstructions__section__wrap {
@@ -2535,7 +2540,9 @@ hr {
 }
 .warrantyPolicy__bottom__contact__card__img {
   height: 232px;
-  flex: 1 0 0;
+  background-color: #FFFFFF;
+  width: 232px;
+  object-fit: contain;
 }
 @media (max-width: 411px) {
   .warrantyPolicy__bottom__card {
@@ -2599,6 +2606,7 @@ hr {
   .warrantyPolicy__bottom__contact__card {
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
   }
   .warrantyPolicy__bottom__contact__card__img {
     flex: none;

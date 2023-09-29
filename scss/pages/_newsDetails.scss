@@ -36,6 +36,7 @@
     &__img {
       height: 800px;
       align-self: stretch;
+      object-fit: cover;
     }
   }
   &__right {
