@@ -31,7 +31,7 @@ addSticky = () => {
       let height = headerHeight + bannerHeight + rowHeight - 200;
       let width = screen.width;
       if (width > 739) {
-        $(".index__side").css("display", "block");
+				$(".index__side").css("display", "block");
       } 
       else if (width <=739) {
         if (($(window).scrollTop() > 349) && ($(window).scrollTop() < height)) {
